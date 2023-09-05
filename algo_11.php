@@ -3,19 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mencari no pegawai</title>
 </head>
 <body>
-<h3>Input No.pegawai</h3>
-<form action="" method="post">
-        <table>
-            <tr>
-                <td><label for="">No Pegawai</label></td>
-                <td><input type="number" name="no_pegawai"></td>
-            </tr>
-        </table>
-        <tr><button type="submit" name="submit">Submit</button></tr>
-    </form>
+<style>
+    body {
+  font-family: 'Open Sans', sans-serif;
+  background: #3498db;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #525252;
+}
+
+.box {
+  background: white;
+  max-width: 300px;
+  border-radius: 6px;
+  margin: 20px auto;
+  padding: 0;
+  border: #2980b9 4px solid;
+  box-sizing: border-box;
+}
+
+.kode {
+  background: #ecf0f1;
+  border: #ccc 1px solid;
+  border-bottom: #ccc 2px solid;
+  padding: 8px;
+  width: 100%;
+  color: #aaaaaa;
+  margin-top: 10px;
+  font-size: 1em;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn {
+  background: #2ecc71;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  border-radius: 4px;
+  border: #27ae60 1px solid;
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 0.8em;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  background: #2cc06b;
+}
+
+    </style>
+<center>
+
+
+<form method="post" action="">
+<div class="box">
+<h1>Pegawai</h1>
+
+<label for="kodepegawai">Nomor Pegawai:</label>
+
+<input type="number" name="no_pegawai" placeholder="gddmmyyyynn"  class="kode" />
+  
+<input type="submit" name="submit" value="Submit" class="btn">
+  
+
+  
+</div> <!-- End Box -->
+
+</form>
 
     <br>
 
